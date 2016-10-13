@@ -1,0 +1,55 @@
+﻿body {
+  background-color: black;
+  padding-top: 60px; 
+}
+
+@media (max-width:767px) {
+  #padding {
+    padding-bottom: 180px;
+  }
+}
+
+.logo {
+  height: 90px;
+  width: 160px;
+}
+
+.portfolioimg {
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#home {
+  background: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/images/678125main_hubble_sparkles_full_full.jpg");
+  background-size: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-caption {
+  color: black;
+}
+@media (min-width: 768px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+  }
+}
