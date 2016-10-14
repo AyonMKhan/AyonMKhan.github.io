@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simon Game</title>
+    <link rel="stylesheet" type="text/css" href="../css/simon.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="box">
+        <span class="cbutton" id="left-top"></span>
+        <span class="cbutton" id="right-top"></span>
+        <span id="simon">
+          <p>Simon</p>
+          <p id="turns">0</p>
+
+        </span>
+        <span class="cbutton" id="left-bottom"></span>
+        <span class="cbutton" id="right-bottom"></span>
+      </div>
+    </div>
+
+    <div class="control-container">
+      <div class="control" id="start"><p class="fa">&#9658</p></div>
+      <div class="control" id="pause"><p class="fa">&#10074&#10074<p></div>
+      <div class="control" id="strict"><p class="fa">Strict Off</p></div>
+      <div class="control" id="reset"><p class="fa">&circlearrowright;Reset<p></div>
+    </div>
+
+
+    <audio id="audio1" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+    <audio id="audio2" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
+    <audio id="audio3" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
+    <audio id="audio4" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
+
+    <script type="text/javascript" src="../js/simon.js"></script>
+
+  </body>
+
+</html>

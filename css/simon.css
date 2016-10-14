@@ -1,0 +1,188 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*===========================================================*/
+
+
+
+
+.box{
+  position: relative;
+  margin: 20px auto 20px auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  right: 0;
+  height: 425px;
+  width: 425px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: black;
+  border: 0px;
+  border-radius: 100%
+}
+
+.cbutton {
+  position: relative;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  background-color: #cfcfcf;
+  margin: 0px;
+  border: 10px solid black;
+}
+
+.cbutton:active {
+
+}
+
+#simon {
+  position: absolute;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: black;
+  border: 0px;
+  border-radius: 100%;
+  z-index: 10;
+}
+
+#simon p {
+  margin-top: 20px;
+  font-family: helvetica, arial;
+  color: white;
+  font-size: 40px;
+  padding-bottom:5px;
+}
+
+#left-top {
+  background-color: green;
+  border-top-left-radius: 100%;
+  border-right: 5px;
+  border-bottom: 5px;
+}
+/*#left-top:active {
+  background-color: rgb(23, 231, 23);
+}*/
+
+#right-top {
+  background-color: rgb(232, 16, 16);
+  border-top-right-radius: 100%;
+  border-left: 5px;
+  border-bottom: 5px;
+}
+
+/*#right-top:active {
+  background-color: red;
+}*/
+
+#right-bottom {
+  background-color: rgb(10, 10, 200);
+  border-bottom-right-radius: 100%;
+  border-left: 5px;
+  border-top: 5px;
+}
+
+/*#right-bottom:active {
+  background-color: blue;
+}*/
+
+#left-bottom {
+  background-color: rgb(219, 219, 4);
+  border-bottom-left-radius: 100%;
+  border-top: 5px;
+  border-right: 5px;
+}
+
+/*#left-bottom:active {
+  background-color: yellow;
+}*/
+
+.control {
+  display: inline-block;
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  border: 5px solid green;
+  text-align: center;
+}
+.control:active {
+  background-color: blue;
+}
+
+
+simon #turns {
+  color: #5a4d3f;
+  font-size: 40px;
+}
+
+.control-container {
+  width: 210px;
+  margin: 0 auto;
+}
+
+
+.fa {
+  margin-top: 6px;
+}
+
+#strict, #reset {
+  width: 70px;
+  border-radius: 20%
+}
+
+#pause {
+  display: none;
+}
