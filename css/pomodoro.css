@@ -1,0 +1,20 @@
+#display {
+  color: red;
+  font-size: 90px;
+}
+
+body {
+  background: #dd00ee;
+}
+
+#pomLenDisp, #brkLenDisp, #nofSeshDisp {
+  font-size: 30px;
+  color: blue;
+}
+
+#clockdiv {
+  border-radius: 50%;
+  border-width: 3px;
+  border-style: dotted;
+  border-color: red;
+}
