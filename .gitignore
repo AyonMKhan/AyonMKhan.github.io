@@ -1,0 +1,13 @@
+/ignore/
+
+
+
+#Subversion files
+.svn
+
+# Office Temp Files
+~$*
+
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
