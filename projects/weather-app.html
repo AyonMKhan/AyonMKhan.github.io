@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/weather-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/weather-app.css">
+    <script type="text/javascript" src="/js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="/js/weather-app.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-inverse" role="navigation">
+            <div class="col-md-12">
+              <div class="navbar-header" id="n1">
+                <a class="navbar-brand" href="https://ayonmkhan.github.io/">Home</a>
+              </div>
+              <ul class="nav navbar-nav navbar-right">
+                <li id="n2">
+                  <a href="/projects/simon.html">Simon Game</a>
+                </li>
+                <li id="n3">
+                  <a href="/projects/js-calculator.html">Javascript Calculator</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+
+      <h1 id="headliner" class="text-center">Weather Here Now</h1>
+      <div class='container'>
+        <div class="jumbotron" id = "weatherdisp">
+          <h2 class="text-center">Press the button to check your weather</h2>
+
+        </div>
+        <div class="text-center">
+        <button class="btn btn-default" id="getweather">Get Weather Report</button>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="container">
+          <p class="text-muted text-center"><a href="https://darksky.net/poweredby/">Powered by Dark Sky</a></p>
+        </div>
+      </footer>
+
+    </body>
+</html>
