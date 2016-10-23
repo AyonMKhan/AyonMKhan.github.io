@@ -24,10 +24,10 @@ $(document).ready(function() {
 
     var celsiusSymbol = " &deg;C";
     var fahrenheitSymbol = " &deg;F";
-    
+
     var weatherUrl = "https://api.darksky.net/forecast/9b699204ee32c39dcc84049707371916/";
 
-    var ipGLUrl = "http://ipinfo.io/";
+    var ipGLUrl = "https://ipinfo.io/";
     //url for getting geolocation coordinates from ipinfo.io
 
     $.get(ipGLUrl, function(response) {//GET request from ipinfo for geoloc data
