@@ -10,22 +10,7 @@
 .wi {
   color: purple;
 }
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
+
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 20px;
   background-color: #000000;
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 20px;
-  background-color: #dddddd;
 }
