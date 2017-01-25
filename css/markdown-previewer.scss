@@ -1,0 +1,43 @@
+$mediaBreakpoint : 500px;
+
+@mixin widthify($x) {
+  box-sizing: border-box;
+  width: $x;
+  height: 100vh;
+}
+
+#title {
+  text-align: center;
+}
+
+#app {
+  min-width: 100%;
+}
+
+@media (max-width: $mediaBreakpoint) {
+  .input {
+    @include widthify(100%);
+  }
+  
+  .rendered {
+    @include widthify(100%);
+  }  
+} 
+
+@media (min-width: $mediaBreakpoint + 1) {
+  .input {
+    @include widthify(50%);
+    float: left;
+    height: 100vh;
+  }
+  
+  .rendered {
+    @include widthify(50%);
+    float: right;
+    height: 100vh;
+    border: 0;
+    padding-left: 15px;
+    margin: auto;
+  }  
+} 
+
