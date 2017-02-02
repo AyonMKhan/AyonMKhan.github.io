@@ -1,5 +1,9 @@
 "use strict";
 
+import React from 'react.min.js';
+import ReactDOM from 'react-dom.min.js';
+import marked from 'marked.min.js';
+
 var Container = React.createClass({
   displayName: "Container",
 
