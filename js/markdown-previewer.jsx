@@ -4,7 +4,6 @@
 	document.addEventListener("DOMContentLoaded", function () {
 
 
-
 		var Container = React.createClass({
 		  getInitialState: function() {
 			return {
