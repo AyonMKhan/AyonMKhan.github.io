@@ -40,7 +40,7 @@
 			  </div>
 			)
 		  }
-		})
+		});
 
 		ReactDOM.render(
 		  <Container />,
