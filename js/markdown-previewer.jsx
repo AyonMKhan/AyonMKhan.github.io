@@ -45,6 +45,6 @@
 		  <Container />,
 		  document.getElementById('app')
 		);
-	})(); //end of Dom content loaded
+	}); //end of Dom content loaded
 
 }()); //end of use strict function wrapping
