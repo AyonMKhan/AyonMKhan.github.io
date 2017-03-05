@@ -1,7 +1,7 @@
 (function () {
 	"use strict";
 
-	document.addEventListener("DOMContentLoaded", function () {
+	
 
 
 		var Container = React.createClass({
@@ -41,6 +41,7 @@
 		  }
 		});
 
+	document.addEventListener("DOMContentLoaded", function () {
 		ReactDOM.render(
 		  <Container />,
 		  document.getElementById('app')

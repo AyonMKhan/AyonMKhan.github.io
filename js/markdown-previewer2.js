@@ -1,9 +1,6 @@
 (function () {
 	"use strict";
 
-	document.addEventListener("DOMContentLoaded", function () {
-
-
 
 		var Container = React.createClass({
 			displayName: "Container",
@@ -48,6 +45,7 @@
 				};
 			},
 
+			
 			render: function render() {
 				return React.createElement("div", {
 					className: "rendered",
@@ -55,7 +53,8 @@
 				});
 			}
 		});
-
+	
+	document.addEventListener("DOMContentLoaded", function () {
 		ReactDOM.render(React.createElement(Container, null), document.getElementById('app'));
 	}); //end of Dom content loaded
 
